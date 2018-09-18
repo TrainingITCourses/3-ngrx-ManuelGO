@@ -1,0 +1,56 @@
+{
+    "types": [
+        {
+            "id": 1,
+            "name": "Go",
+            "description": "Launch is GO",
+            "changed": "2017-02-21 00:00:00",
+            "color" : "accent"
+        },
+        {
+            "id": 2,
+            "name": "TBD",
+            "description": "Launch is NO-GO",
+            "changed": "2017-02-21 00:00:00",
+            "color" : "warn"
+        },
+        {
+            "id": 3,
+            "name": "Success",
+            "description": "Launch was a success",
+            "changed": "2017-02-21 00:00:00",
+            "color" : "accent"
+        },
+        {
+            "id": 4,
+            "name": "Failure",
+            "description": "Launch failed",
+            "changed": "2017-02-21 00:00:00",
+            "color" : "warn"
+        },
+        {
+            "id": 5,
+            "name": "Hold",
+            "description": "Unplanned hold",
+            "changed": "2018-04-09 13:47:20",
+            "color" : "warn"
+        },
+        {
+            "id": 6,
+            "name": "In Flight",
+            "description": "Vehicle is in flight",
+            "changed": "2018-04-09 13:47:20",
+            "color" : "accent"
+        },
+        {
+            "id": 7,
+            "name": "Partial Failure",
+            "description": "There was a partial failure during launch",
+            "changed": "2018-04-09 13:47:20",
+            "color" : "warn"
+        }
+    ],
+    "total": 7,
+    "count": 7,
+    "offset": 0
+}
