@@ -1,0 +1,35 @@
+import { Agency } from './agency';
+import { LaunchLight } from './launch-light';
+import { Location } from './location';
+import { Mission } from './mission';
+import { Rocket } from './rocket';
+export interface Launch extends LaunchLight {
+  id: number;
+  name: string;
+  windowstart: string;
+  windowend: string;
+  net: string;
+  wsstamp: number;
+  westamp: number;
+  netstamp: number;
+  isostart: string;
+  isoend: string;
+  isonet: string;
+  status: number;
+  inhold: number;
+  tbdtime: number;
+  vidURLs: string[];
+  vidURL?: any;
+  infoURLs: any[];
+  infoURL?: any;
+  holdreason?: any;
+  failreason?: any;
+  tbddate: number;
+  probability: number;
+  hashtag: string;
+  changed: string;
+  location: Location;
+  rocket: Rocket;
+  missions: Mission[];
+  lsp: Agency;
+}
