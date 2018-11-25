@@ -1,0 +1,7 @@
+<mat-radio-group class="radio-group" [(ngModel)]="userSelection">
+
+    <mat-radio-button class="radio-button" *ngFor="let l of list" [value]="l" (change)="radioChange($event)">
+      {{l.name}}
+    </mat-radio-button>
+  </mat-radio-group>
+  <!-- <div class="selected-value">Su selección: {{userSelection}}</div> -->

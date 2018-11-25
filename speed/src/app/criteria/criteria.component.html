@@ -1,0 +1,10 @@
+<p>
+    Buscar por:
+  </p>
+  
+  <mat-radio-group class="radio-group">
+
+    <mat-radio-button class="radio-button" *ngFor="let opt of options" [value]="opt" (change)="radioChange($event)">
+      {{opt}}
+    </mat-radio-button>
+  </mat-radio-group>

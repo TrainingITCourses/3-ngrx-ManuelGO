@@ -1,0 +1,12 @@
+<app-criteria (selection)="onSelection($event)"></app-criteria>
+<br>
+<hr>
+<ng-container *ngIf="criterias$ | async as criteria">
+    <app-list-criteria  [list]="criteria" (criteriaSelection)="onCriteriaSelection($event)"></app-list-criteria>
+</ng-container>
+<ng-container *ngIf="filtered$ | async as filtered">
+    <app-list-result [list]="filtered"></app-list-result>
+</ng-container>
+<!-- <div *ngIf="criterias$ | async as criteria">
+ {{criteria | json}}
+</div> -->
